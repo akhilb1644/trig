@@ -15,7 +15,7 @@ while True:
         a = float(input("Please enter a value for side a, adjacent to angle C as well. Switching the value for side b "
                         "and a won't change the value of the final answer.  "))
         # Next line calculates the side length using the information collected
-        c = sqrt((a**2)+(b**2)-(2*a*b*cos((C)*(pi/180))))
+        c = sqrt((a**2)+(b**2)-(2*a*b*cos((C)*(pi/180)))) # The angle C value is converted to radians
         print(c)
 
     elif option == 2:
@@ -32,7 +32,8 @@ while True:
                         " this value(side a) won't change the final answer.  "))
         # The next line calculates the angle to be solved for with the information collected
         C = acos(((c**2)-(a**2)-(b**2))/(-2*a*b))
-        print(C * (180/pi)) # If the output is something like 60.00000000000001, it is a whole number
+        print(C * (180/pi)) # Converts the answer from radians to degrees.
+        # If the output is something like 60.00000000000001, it is a whole number
 
     elif option == 0:
         break # Disrupts the infinite loop
