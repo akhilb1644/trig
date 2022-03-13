@@ -6,7 +6,7 @@ while True:
     if option == 1:
         print("\nAll values must be entered in decimal or integer form\n")
         """
-        Used to gather all the information needed to calculate the side opposite of the angle in an SSA angle where the
+        Used to gather all the information needed to calculate the side opposite of the angle in an SAS angle where the
         values of two sides adjacent to an angle are known, as well as the angle.
         """
         C = float(input("Please enter a value for angle C, which is the angle opposite of the side you are solving for."
