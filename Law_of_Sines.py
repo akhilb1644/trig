@@ -1,4 +1,4 @@
-"""This prograam will go through with the law of sines with SSA and SAA triangles"""
+"""This program will go through with the law of sines with SSA and SAA triangles"""
 from math import *
 while True:
     option = int(input("Do you want to do the law of sines with SSA(1) or SAA(2) triangles. You can enter 0 to quit.  "
